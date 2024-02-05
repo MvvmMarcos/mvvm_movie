@@ -1,0 +1,66 @@
+.home_header h1{
+    margin: 1em 0;
+    border-left: 4px solid #c2c202;
+    padding-left: 5px;
+}
+.home_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.movie_card{
+    width: 22%;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    position: relative;
+}
+.movie_card_image{
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 1.2em;
+}
+.movie_card h3{
+    margin: .8em auto;
+    color: #FFF;
+    font-size: 1em;
+    text-align: center;
+}
+.movie_card p{
+    font-size: 1.2em;
+    margin: .5em 0;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movie_card p a{
+    color: #000;
+    padding: .5em .8em;
+    border: 2px solid #c2c202;
+    background-color: #c2c202;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: .3s;
+    position: absolute;
+    bottom: 0;
+}
+.rating{
+    margin: 1em 0;
+}
+i{
+    font-size: 1.2em;
+    color: #c2c202;
+    padding-right: .5em;
+}
+.movie_card p a:hover{
+    background-color: transparent;
+    color: #c2c202;
+}

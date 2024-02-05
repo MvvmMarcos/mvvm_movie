@@ -1,0 +1,140 @@
+.movie_header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.movie_header h1{
+    border-bottom:2px solid #c2c202;
+}
+.movie_header p{
+    font-size: 1.2em;
+    color: #c2c202;
+    margin-bottom: 1em;
+}
+p.description{
+    color: #FFF;
+}
+.pipe{
+    padding: 2px;
+    background-color: #fff;
+    margin: 0 .5em;
+}
+.movie_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5em;
+}
+
+.movie_comments_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5em;
+    background-color: #CCC;
+    max-width: 560px;
+    width: 100%;
+    margin: 1em auto;
+}
+.movie_comments{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-top: 2px solid #c2c202;
+    padding: 1em 0;
+}
+.movie_comments p{
+    margin-left: 1em;
+}
+.rating i{
+    margin-right: .3em;
+    font-size: 1.5em;
+    color: #c2c202;
+}
+
+.movie_photo img{
+    width: 560px;
+    height: auto;
+    margin-top: 1em;
+}
+.create_comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 560px;
+    width: 100%;
+    margin: 1em auto;
+}
+.create_comments form{
+    width: 560px;
+}
+.create_comments label{
+    margin: 1.5em 0;
+    color: #FFF;
+    font-size: 1.2em;
+}
+.create_comments select{
+    width: 100%;
+    padding: .7em;
+    border: 1px solid #c2c202;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    color: #FFF;
+    margin: 1em 0;
+}
+.create_comments textarea{
+    width: 100%;
+    padding: .7em;
+    border: 1px solid #c2c202;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    color: #FFF;
+    background-color: #222;
+    margin: 1em 0;
+}
+.create_comments textarea::placeholder{
+    color: #FFF;
+}
+.create_comments textarea:active{
+    border: 1px solid #0000ff;
+}
+.create_comments input[type="submit"]{
+    border-radius: 10px;
+    background:#c2c202;
+    padding: 1em 1.2em;
+    width: 100%;
+    border: 1px solid #c2c202;
+    margin: 1em auto;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    transition: .4s;
+}
+.create_comments input[type="submit"]:hover{
+    background-color: transparent;
+    color: #c2c202;
+}
+.notice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.notice p{
+    color: #FFF;
+    margin: .8em 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+.notice p a{
+    color: #c2c202;
+    text-decoration: none;
+}
+.notice p a:hover{
+    text-decoration: underline;
+}
